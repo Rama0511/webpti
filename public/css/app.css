@@ -1,0 +1,70 @@
+/* Styling untuk Layar Penuh */
+body {
+    margin: 0;
+    font-family: sans-serif; /* Font default yang umum */
+}
+
+.splash-container {
+    /* Mengisi seluruh viewport dan mengatur tata letak Flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 15vh;
+    padding-bottom: 5vh; 
+    box-sizing: border-box;
+}
+
+/* BAGIAN ATAS: Area Visual */
+.visual-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Placeholder Kotak 1 (Logo) */
+.square-placeholder {
+    width: 120px;
+    height: 120px;
+    background-color: #E0DEDE; /* Warna abu-abu muda */
+    margin-bottom: 30px; /* Jarak antara kotak dan tombol */
+}
+
+/* Tombol Login (Kotak Merah Muda) */
+.login-button {
+    /* Mengikuti dimensi kotak merah muda pada gambar */
+    width: 300px;
+    height: 80px; 
+    
+    /* Gaya Tombol */
+    background-color: #F5C7C7; /* Warna merah muda */
+    color: #000000; /* Warna teks hitam */
+    text-decoration: none; /* Menghilangkan underline pada tautan */
+    font-size: 18px;
+    font-weight: bold;
+    
+    /* Memposisikan teks di tengah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BAGIAN BAWAH: Informasi Teks */
+.text-info {
+    text-align: center;
+}
+
+.app-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.app-version {
+    font-size: 14px;
+    color: #888888;
+}
